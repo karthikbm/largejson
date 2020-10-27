@@ -1,0 +1,906 @@
+{			
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "OCT14_KMAT_MKTO_Lead_Schema",
+	"description": "Marketo Lead object schema",
+	"type": "object",
+	"required": [
+		"id",
+		"firstName",
+		"lastName",
+		"email",
+		"createdAt",
+		"updatedAt"
+	],
+	"properties": {
+		"company": {
+			"title": "Company Name",
+			"description": "Company Name",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"site": {
+			"title": "Site",
+			"description": "Site",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"billingStreet": {
+			"title": "Billing Address",
+			"description": "Billing Address",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"billingCity": {
+			"title": "Billing City",
+			"description": "Billing City",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"billingState": {
+			"title": "Billing State",
+			"description": "Billing State",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"billingCountry": {
+			"title": "Billing Country",
+			"description": "Billing Country",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"billingPostalCode": {
+			"title": "Billing Postal Code",
+			"description": "Billing Postal Code",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"website": {
+			"title": "Website",
+			"description": "Website",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"mainPhone": {
+			"title": "Main Phone",
+			"description": "Main Phone",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"annualRevenue": {
+			"title": "Annual Revenue",
+			"description": "Annual Revenue",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"numberOfEmployees": {
+			"title": "Num Employees",
+			"description": "Num Employees",
+			"isRequired": false,
+			"type": "integer",
+			"minimum": -9007199254740991,
+			"maximum": 9007199254740991
+		},
+		"industry": {
+			"title": "Industry",
+			"description": "Industry",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"sicCode": {
+			"title": "SIC Code",
+			"description": "SIC Code",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"mktoCompanyNotes": {
+			"title": "Company Notes",
+			"description": "Company Notes",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"externalCompanyId": {
+			"title": "External Company Id",
+			"description": "External Company Id",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"id": {
+			"title": "Id",
+			"description": "Id",
+			"isRequired": true,
+			"type": "integer",
+			"minimum": -9007199254740991,
+			"maximum": 9007199254740991
+			
+		},
+		"mktoName": {
+			"title": "Full Name",
+			"description": "Full Name",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"personType": {
+			"title": "Person Type",
+			"description": "Person Type",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"mktoIsPartner": {
+			"title": "Is Partner",
+			"description": "Is Partner",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"isLead": {
+			"title": "Is Lead",
+			"description": "Is Lead",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"mktoIsCustomer": {
+			"title": "Is Customer",
+			"description": "Is Customer",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"isAnonymous": {
+			"title": "Is Anonymous",
+			"description": "Is Anonymous",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"salutation": {
+			"title": "Salutation",
+			"description": "Salutation",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"firstName": {
+			"title": "First Name",
+			"description": "First Name",
+			"isRequired": true,
+			"type": "string"
+			
+		},
+		"middleName": {
+			"title": "Middle Name",
+			"description": "Middle Name",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"lastName": {
+			"title": "Last Name",
+			"description": "Last Name",
+			"isRequired": true,
+			"type": "string"
+			
+		},
+		"email": {
+			"title": "Email Address",
+			"description": "Email Address",
+			"isRequired": true,
+			"type": "string"
+			
+		},
+		"phone": {
+			"title": "Phone Number",
+			"description": "Phone Number",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"mobilePhone": {
+			"title": "Mobile Phone Number",
+			"description": "Mobile Phone Number",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"fax": {
+			"title": "Fax Number",
+			"description": "Fax Number",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"title": {
+			"title": "Job Title",
+			"description": "Job Title",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"contactCompany": {
+			"title": "Contact Company",
+			"description": "Contact Company",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"dateOfBirth": {
+			"title": "Date of Birth",
+			"description": "Date of Birth",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"address": {
+			"title": "Address",
+			"description": "Address",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"city": {
+			"title": "City",
+			"description": "City",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"state": {
+			"title": "State",
+			"description": "State",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"country": {
+			"title": "Country",
+			"description": "Country",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"postalCode": {
+			"title": "Postal Code",
+			"description": "Postal Code",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"originalSourceType": {
+			"title": "Original Source Type",
+			"description": "Original Source Type",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"originalSourceInfo": {
+			"title": "Original Source Info",
+			"description": "Original Source Info",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"registrationSourceType": {
+			"title": "Registration Source Type",
+			"description": "Registration Source Type",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"registrationSourceInfo": {
+			"title": "Registration Source Info",
+			"description": "Registration Source Info",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"originalSearchEngine": {
+			"title": "Original Search Engine",
+			"description": "Original Search Engine",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"originalSearchPhrase": {
+			"title": "Original Search Phrase",
+			"description": "Original Search Phrase",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"originalReferrer": {
+			"title": "Original Referrer",
+			"description": "Original Referrer",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"emailInvalid": {
+			"title": "Email Invalid",
+			"description": "Email Invalid",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"emailInvalidCause": {
+			"title": "Email Invalid Cause",
+			"description": "Email Invalid Cause",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"unsubscribed": {
+			"title": "Unsubscribed",
+			"description": "Unsubscribed",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"unsubscribedReason": {
+			"title": "Unsubscribed Reason",
+			"description": "Unsubscribed Reason",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"doNotCall": {
+			"title": "Do Not Call",
+			"description": "Do Not Call",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"mktoDoNotCallCause": {
+			"title": "Do Not Call Cause",
+			"description": "Do Not Call Cause",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"doNotCallReason": {
+			"title": "Do Not Call Reason",
+			"description": "Do Not Call Reason",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"marketingSuspended": {
+			"title": "Marketing Suspended",
+			"description": "Marketing Suspended",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"marketingSuspendedCause": {
+			"title": "Marketing Suspended Cause",
+			"description": "Marketing Suspended Cause",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"blackListed": {
+			"title": "Black Listed",
+			"description": "Black Listed",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"blackListedCause": {
+			"title": "Black Listed Cause",
+			"description": "Black Listed Cause",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"mktoPersonNotes": {
+			"title": "Person Notes",
+			"description": "Person Notes",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"anonymousIP": {
+			"title": "Anonymous IP",
+			"description": "Anonymous IP",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"inferredCompany": {
+			"title": "Inferred Company",
+			"description": "Inferred Company",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"inferredCountry": {
+			"title": "Inferred Country",
+			"description": "Inferred Country",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"inferredCity": {
+			"title": "Inferred City",
+			"description": "Inferred City",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"inferredStateRegion": {
+			"title": "Inferred State Region",
+			"description": "Inferred State Region",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"inferredPostalCode": {
+			"title": "Inferred Postal Code",
+			"description": "Inferred Postal Code",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"inferredMetropolitanArea": {
+			"title": "Inferred Metropolitan Area",
+			"description": "Inferred Metropolitan Area",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"inferredPhoneAreaCode": {
+			"title": "Inferred Phone Area Code",
+			"description": "Inferred Phone Area Code",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"emailSuspended": {
+			"title": "Email Suspended",
+			"description": "Email Suspended",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"emailSuspendedCause": {
+			"title": "Email Suspended Cause",
+			"description": "Email Suspended Cause",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"emailSuspendedAt": {
+			"title": "Email Suspended At",
+			"description": "Email Suspended At",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"department": {
+			"title": "Department",
+			"description": "Department",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"createdAt": {
+			"title": "Created At",
+			"description": "Created At",
+			"isRequired": true,
+			"type": "string"
+			
+		},
+		"updatedAt": {
+			"title": "Updated At",
+			"description": "Updated At",
+			"isRequired": true,
+			"type": "string"
+			
+		},
+		"cookies": {
+			"title": "Cookies",
+			"description": "Cookies",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"externalSalesPersonId": {
+			"title": "External Sales Person Id",
+			"description": "External Sales Person Id",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"leadPerson": {
+			"title": "Lead Person",
+			"description": "Lead Person",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"leadRole": {
+			"title": "Role",
+			"description": "Role",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"leadSource": {
+			"title": "Lead Source",
+			"description": "Lead Source",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"leadStatus": {
+			"title": "Lead Status",
+			"description": "Lead Status",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"leadScore": {
+			"title": "Lead Score",
+			"description": "Lead Score",
+			"isRequired": false,
+			"type": "integer",
+			"minimum": -9007199254740991,
+			"maximum": 9007199254740991
+			
+		},
+		"urgency": {
+			"title": "Urgency",
+			"description": "Urgency",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"priority": {
+			"title": "Priority",
+			"description": "Priority",
+			"isRequired": false,
+			"type": "integer",
+			"minimum": -9007199254740991,
+			"maximum": 9007199254740991
+			
+		},
+		"relativeScore": {
+			"title": "Relative Score",
+			"description": "Relative Score",
+			"isRequired": false,
+			"type": "integer",
+			"minimum": -9007199254740991,
+			"maximum": 9007199254740991
+			
+		},
+		"relativeUrgency": {
+			"title": "Relative Urgency",
+			"description": "Relative Urgency",
+			"isRequired": false,
+			"type": "integer",
+			"minimum": -9007199254740991,
+			"maximum": 9007199254740991
+			
+		},
+		"rating": {
+			"title": "Lead Rating",
+			"description": "Lead Rating",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"personPrimaryLeadInterest": {
+			"title": "Primary Lead Interest",
+			"description": "Primary Lead Interest",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"leadPartitionId": {
+			"title": "Lead Partition Id",
+			"description": "Lead Partition Id",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"leadRevenueCycleModelId": {
+			"title": "Lead Revenue Cycle Model ID",
+			"description": "Lead Revenue Cycle Model ID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"leadRevenueStageId": {
+			"title": "Lead Revenue Stage ID",
+			"description": "Lead Revenue Stage ID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"acquisitionProgramId": {
+			"title": "Acquisition Program",
+			"description": "Acquisition Program",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"mktoAcquisitionDate": {
+			"title": "Acquisition Date",
+			"description": "Acquisition Date",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"SAP_CRM_Type": {
+			"title": "CRM_SAP_Type",
+			"description": "CRM_SAP_Type",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"SAPMktgLeadId": {
+			"title": "SAPMktgLeadId",
+			"description": "SAPMktgLeadId",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"SAPC4CContactID": {
+			"title": "SAPC4CContactID",
+			"description": "SAPC4CContactID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"SAPContactUUID": {
+			"title": "SAPContactUUID",
+			"description": "SAPContactUUID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"personTimeZone": {
+			"title": "Person Time Zone",
+			"description": "Person Time Zone",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"accountHouseNumber": {
+			"title": "AccountHouseNumber",
+			"description": "AccountHouseNumber",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"customEmail2": {
+			"title": "customEmail2",
+			"description": "customEmail2",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"amkuTest": {
+			"title": "amkuTest",
+			"description": "amkuTest",
+			"isRequired": false,
+			"type": "integer",
+			"minimum": -9007199254740991,
+			"maximum": 9007199254740991
+			
+		},
+		"c4COpptID": {
+			"title": "c4COpptID",
+			"description": "c4COpptID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"c4CLeadID": {
+			"title": "c4CLeadID",
+			"description": "c4CLeadID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"name": {
+			"title": "name",
+			"description": "name",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"accountPartyID": {
+			"title": "accountPartyID",
+			"description": "accountPartyID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"contactID": {
+			"title": "contactID",
+			"description": "contactID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"qualificationLevelCode": {
+			"title": "qualificationLevelCode",
+			"description": "qualificationLevelCode",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"status": {
+			"title": "status",
+			"description": "status",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"resultReasonCode": {
+			"title": "resultReasonCode",
+			"description": "resultReasonCode",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"orginTypeCode": {
+			"title": "orginTypeCode",
+			"description": "orginTypeCode",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"priorityCode": {
+			"title": "priorityCode",
+			"description": "priorityCode",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"startDate": {
+			"title": "startDate",
+			"description": "startDate",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"endDate": {
+			"title": "endDate",
+			"description": "endDate",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"campaignID": {
+			"title": "campaignID",
+			"description": "campaignID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"groupCode": {
+			"title": "groupCode",
+			"description": "groupCode",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"ownerPartyID": {
+			"title": "ownerPartyID",
+			"description": "ownerPartyID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"note": {
+			"title": "note",
+			"description": "note",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"mKTOLeadID": {
+			"title": "mKTOLeadID",
+			"description": "mKTOLeadID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"referenceDocumentID": {
+			"title": "referenceDocumentID",
+			"description": "referenceDocumentID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"c4CContactID": {
+			"title": "c4CContactID",
+			"description": "c4CContactID",
+			"isRequired": false,
+			"type": "integer",
+			"minimum": -9007199254740991,
+			"maximum": 9007199254740991
+			
+		},
+		"obsoleteinC4C": {
+			"title": "obsoleteinC4C",
+			"description": "obsoleteinC4C",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"accountHouseNo": {
+			"title": "AccountHouseNo",
+			"description": "AccountHouseNo",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"contactHouseNumber": {
+			"title": "contactHouseNumber",
+			"description": "contactHouseNumber",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"lastForm": {
+			"title": "Last Form",
+			"description": "Last Form",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"lastFormHistory": {
+			"title": "Last Form History",
+			"description": "Last Form History",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"isDeleted": {
+			"title": "isDeleted",
+			"description": "isDeleted",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"c4CContactObjectID": {
+			"title": "c4CContactObjectID",
+			"description": "c4CContactObjectID",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"leadDescription": {
+			"title": "Lead Description",
+			"description": "Lead Description",
+			"isRequired": false,
+			"type": "string"
+			
+		},
+		"sample": {
+			"title": "Sample",
+			"description": "Sample",
+			"isRequired": false,
+			"type": "string"
+			
+		}
+	}
+}
