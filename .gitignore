@@ -2,8 +2,8 @@
 target/
 
 ## Large outputfiles ##
-/Data/MKTO_Leads_250MB_80_000.json
-/Data/outputCSV_50mb_63000.csv
+Data/MKTO_Leads_250MB_80_000.json
+Data/outputCSV_50mb_63000.csv
 
 ### Java ###
 # Compiled class file
