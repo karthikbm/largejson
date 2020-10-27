@@ -1,6 +1,9 @@
 ###Ignore Target folder###
 target/
 
+## Large outputfiles ##
+Data/MKTO_Leads_250MB_80_000.json
+
 ### Java ###
 # Compiled class file
 *.class
