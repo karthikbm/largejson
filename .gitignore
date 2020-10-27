@@ -1,5 +1,5 @@
 ###Ignore Target folder###
-/target
+target/
 
 ### Java ###
 # Compiled class file
